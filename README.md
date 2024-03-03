@@ -2,41 +2,31 @@
 
 ## Instruções
 
+### Antes de executar o projeto é preciso instalar as dependências, 
+### esse projeto foi feito usando o gerenciador de pacote pnpm
 ```bash
-# Antes de executar o projeto é preciso instalar as dependências, 
-# esse projeto foi feito usando o gerenciador de pacote pnpm
-
 $ pnpm install
-
 ```
 
+### Para rodar o projeto
 ```bash
-# Para rodar o projeto
-
 $ pnpm run dev
-
 ```
 
+### Para rodar os testes
 ```bash
-# Para rodar os testes
-
 $ pnpm run test
-
 ```
 
+### Para rodar os testes com interface gráfica
 ```bash
-# Para rodar os testes com interface gráfica
-
 $ pnpm run test-ui
-
 ```
 
 
+### Para rodar o coverage
 ```bash
-# Para rodar o coverage
-
 $ pnpm run coverage
-
 ```
 
 # Várial de ambiente
