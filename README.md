@@ -33,7 +33,15 @@ $ pnpm run coverage
 
 ```bash
 # Para utiliazar as variaveis de ambiente vai ser necessário criar um arquivo .env.local
+
 ```
+<h1 align="center">Projeto</h1>
+<h1 align="center">
+  <img src="https://github.com/mercurio236/kendo/assets/32252053/62e057cb-9b0e-4f4f-aea3-faf763d27ae1"/> 
+  <img src="https://github.com/mercurio236/kendo/assets/32252053/b2a40d32-7e2f-4f42-a09e-0e227decf583"/> 
+</h1>
+
+
 
 
 
