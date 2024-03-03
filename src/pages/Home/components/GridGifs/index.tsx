@@ -8,7 +8,7 @@ interface GifsProps {
 export function GridGifs({ data }: GifsProps) {
   return (
     <GridLayout
-      className="grid grid-cols-3 max-sm:grid-cols-2"
+      className="grid grid-cols-3 max-sm:grid-cols-2 max-md:grid-cols-1"
       gap={{ rows: 5, cols: 5 }}
     >
       {data &&
