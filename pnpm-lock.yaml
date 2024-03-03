@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@hookform/resolvers':
+    specifier: ^3.3.4
+    version: 3.3.4(react-hook-form@7.51.0)
   '@progress/kendo-drawing':
     specifier: ^1.19.0
     version: 1.19.0
@@ -23,6 +26,9 @@ dependencies:
   '@progress/kendo-react-editor':
     specifier: ^7.2.3
     version: 7.2.3(@progress/kendo-drawing@1.19.0)(@progress/kendo-licensing@1.3.5)(@progress/kendo-react-buttons@7.2.3)(@progress/kendo-react-common@7.2.3)(@progress/kendo-react-dialogs@7.2.3)(@progress/kendo-react-dropdowns@7.2.3)(@progress/kendo-react-form@7.2.3)(@progress/kendo-react-inputs@7.2.3)(@progress/kendo-react-intl@7.2.3)(@progress/kendo-react-layout@7.2.3)(@progress/kendo-react-pdf@7.2.3)(@progress/kendo-react-popup@7.2.3)(@progress/kendo-svg-icons@2.1.0)(react-dom@18.2.0)(react@18.2.0)
+  '@progress/kendo-react-indicators':
+    specifier: ^7.2.3
+    version: 7.2.3(@progress/kendo-licensing@1.3.5)(@progress/kendo-react-common@7.2.3)(react-dom@18.2.0)(react@18.2.0)
   '@progress/kendo-react-inputs':
     specifier: ^7.2.3
     version: 7.2.3(@progress/kendo-drawing@1.19.0)(@progress/kendo-inputs-common@3.1.1)(@progress/kendo-licensing@1.3.5)(@progress/kendo-react-animation@7.2.3)(@progress/kendo-react-buttons@7.2.3)(@progress/kendo-react-common@7.2.3)(@progress/kendo-react-dialogs@7.2.3)(@progress/kendo-react-intl@7.2.3)(@progress/kendo-react-labels@7.2.3)(@progress/kendo-react-popup@7.2.3)(@progress/kendo-svg-icons@2.1.0)(react-dom@18.2.0)(react@18.2.0)
@@ -44,6 +50,9 @@ dependencies:
   '@progress/kendo-svg-icons':
     specifier: ^2.1.0
     version: 2.1.0
+  '@progress/kendo-theme-default':
+    specifier: ^7.2.0
+    version: 7.2.0
   axios:
     specifier: ^1.6.7
     version: 1.6.7
@@ -56,6 +65,9 @@ dependencies:
   react-hook-form:
     specifier: ^7.51.0
     version: 7.51.0(react@18.2.0)
+  use-breakpoint:
+    specifier: ^4.0.1
+    version: 4.0.1(react-dom@18.2.0)(react@18.2.0)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -588,6 +600,14 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
+  /@hookform/resolvers@3.3.4(react-hook-form@7.51.0):
+    resolution: {integrity: sha512-o5cgpGOuJYrd+iMKvkttOclgwRW86EsWJZZRC23prf0uU2i48Htq4PuT73AVb9ionFyZrwYEITuOFGF+BydEtQ==}
+    peerDependencies:
+      react-hook-form: ^7.0.0
+    dependencies:
+      react-hook-form: 7.51.0(react@18.2.0)
+    dev: false
+
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
@@ -894,6 +914,21 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
+  /@progress/kendo-react-indicators@7.2.3(@progress/kendo-licensing@1.3.5)(@progress/kendo-react-common@7.2.3)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/dvq1Vi3GPqi/+wii56uRYfqAZbcHXRjp0aKPF+jsZJiBpPUyp9tiJ5Lpk4XSA1Amf9ND/+nYIv8/fkgAfL4iA==}
+    peerDependencies:
+      '@progress/kendo-licensing': ^1.3.4
+      '@progress/kendo-react-common': 7.2.3
+      react: ^16.8.2 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.2 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@progress/kendo-licensing': 1.3.5
+      '@progress/kendo-react-common': 7.2.3(@progress/kendo-licensing@1.3.5)(@progress/kendo-svg-icons@2.1.0)(react-dom@18.2.0)(react@18.2.0)
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /@progress/kendo-react-inputs@7.2.3(@progress/kendo-drawing@1.19.0)(@progress/kendo-inputs-common@3.1.1)(@progress/kendo-licensing@1.3.5)(@progress/kendo-react-animation@7.2.3)(@progress/kendo-react-buttons@7.2.3)(@progress/kendo-react-common@7.2.3)(@progress/kendo-react-dialogs@7.2.3)(@progress/kendo-react-intl@7.2.3)(@progress/kendo-react-labels@7.2.3)(@progress/kendo-react-popup@7.2.3)(@progress/kendo-svg-icons@2.1.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-V6mkH2YQ+9Z/iVORtENtqHl8IxcbuS/TEnP5/0qCPbOBmfrMBNJZn3DOWv8Te7wwy3SFxhF0HtplHiRKsKsu9A==}
     peerDependencies:
@@ -1060,6 +1095,24 @@ packages:
 
   /@progress/kendo-svg-icons@2.1.0:
     resolution: {integrity: sha512-zAwxw8lt5xlIBMoE3uwUX2Z2RI5njWViYxdFoinvr5d8WJ6kU3sghNONsRelM9GiDd2vbSg0IkEN8dOrBvFjPg==}
+    dev: false
+
+  /@progress/kendo-theme-core@7.2.0:
+    resolution: {integrity: sha512-jzXzL0TY+6GpqVtQF9EIdy5EW81S9EEFAFEd2B7Zi1eN9WjGn7agDaAi6+hKNsCMBIv81Vmxahvs6C16ccU3UA==}
+    dev: false
+
+  /@progress/kendo-theme-default@7.2.0:
+    resolution: {integrity: sha512-57cf6Cwl94S87dNhOQwajEbAaPcLnq0jL9jxxMEG/cY18y3ErGrTy1jaUvsSfIHEEMgKVUqkTdb4+Od6dKrSaA==}
+    dependencies:
+      '@progress/kendo-svg-icons': 2.1.0
+      '@progress/kendo-theme-core': 7.2.0
+      '@progress/kendo-theme-utils': 7.2.0
+    dev: false
+
+  /@progress/kendo-theme-utils@7.2.0:
+    resolution: {integrity: sha512-13iVDNFr8JBI92PGaKG4KuCi5fgD6q+mrFztLLJ9CNhlHzSiPSXESMn3o2YkMYzKJbYObYNn9FubWqcS9Uzp6w==}
+    dependencies:
+      '@progress/kendo-theme-core': 7.2.0
     dev: false
 
   /@progress/pako-esm@1.0.1:
@@ -3040,6 +3093,16 @@ packages:
     dependencies:
       punycode: 2.3.1
     dev: true
+
+  /use-breakpoint@4.0.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Fa5Duxv3BY3bw8kmj/lmryTETXVUmBQeYJpBgPJ2yJRiIaGVG8rlMNKQE+JS2rywCZHWaggVUz+ytbr7sH/yyg==}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
