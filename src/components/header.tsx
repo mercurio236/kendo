@@ -4,7 +4,7 @@ export function Header() {
   return (
     <div className="border-b">
       <div className="flex h-16 items-center gap-6 px-6">
-        <img src={IMG_GIF} className="w-[300px]" alt="" />
+        <img src={IMG_GIF} className="w-[300px]" alt="logo" />
       </div>
     </div>
   )

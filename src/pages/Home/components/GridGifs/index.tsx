@@ -14,7 +14,6 @@ export function GridGifs({ data }: GifsProps) {
       {data &&
         data.map((gif, i) => {
           const row = Math.floor(i / 3) + 1
-
           return (
             <GridLayoutItem
               className="flex items-center justify-center mt-4 "
