@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Kendo Gifs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instruções
 
-Currently, two official plugins are available:
+```bash
+# Antes de executar o projeto é preciso instalar as dependências, esse projeto foi feito usando o gerenciador de pacote pnpm
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+$ pnpm install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+# Para rodar o projeto
+
+$ pnpm run dev
+
+```
+
+```bash
+# Para rodar os testes
+
+$ pnpm run test
+
+```
+
+```bash
+# Para rodar os testes com interface gráfica
+
+$ pnpm run test-ui
+
+```
+
+
+```bash
+# Para rodar o coverage
+
+$ pnpm run coverage
+
+```
+
+# Várial de ambiente
+
+```bash
+# Para utiliazar as variaveis de ambiente vai ser necessário criar um arquivo .env.local
+```
+
+
+
+
