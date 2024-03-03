@@ -57,7 +57,7 @@ export function Home() {
       <div>
         <form onSubmit={handleSubmit(handleSubmitForm)}>
           <div className="flex flex-row gap-3">
-            <Input {...register('search')} />
+            <Input placeholder='Buscar por gifs' {...register('search')} />
             <Button disabled={isSubmitting} themeColor={'base'} type="submit">
               {isSubmitting ? <Loader size="small" /> : 'Buscar'}
             </Button>
