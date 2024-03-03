@@ -37,6 +37,7 @@ $ pnpm run coverage
 ```
 <h1 align="center">Projeto</h1>
 <h1 align="center">
+  <img src="https://github.com/mercurio236/kendo/assets/32252053/5d6220cc-e0df-44b8-8cba-3679267e6386"/>
   <img src="https://github.com/mercurio236/kendo/assets/32252053/62e057cb-9b0e-4f4f-aea3-faf763d27ae1"/> 
   <img src="https://github.com/mercurio236/kendo/assets/32252053/b2a40d32-7e2f-4f42-a09e-0e227decf583"/> 
 </h1>
