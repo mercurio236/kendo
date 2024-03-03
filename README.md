@@ -3,7 +3,8 @@
 ## Instruções
 
 ```bash
-# Antes de executar o projeto é preciso instalar as dependências, esse projeto foi feito usando o gerenciador de pacote pnpm
+# Antes de executar o projeto é preciso instalar as dependências, 
+# esse projeto foi feito usando o gerenciador de pacote pnpm
 
 $ pnpm install
 
